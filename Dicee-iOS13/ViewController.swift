@@ -10,9 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var diceImageView1: UIImageView!
+   
+    // Overide function like main in c or java
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view.
+        
+        diceImageView1.image = #imageLiteral(resourceName: "DiceTwo")
     }
 
 
